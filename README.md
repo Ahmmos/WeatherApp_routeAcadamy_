@@ -13,5 +13,5 @@ This repo will make a web weather Application that will display the weather for 
 
 ## languages used 
 - HTML to build the website.
-- CSS to add styles for the website.
+- CSS & bootstrap to add styles for the website.
 - JS to fetch the API and display the weather degree on the website.
