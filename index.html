@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <!-- fonts -->
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container d-felx justify-content-between">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="imgs/logo@2x.png" alt="" class="mx-3 mt-2" width="64" height="38">
+        <div class="logo-type text-center">
+          <h1 class="site-title">Weather</h1>
+          <small class="site-description">tagline goes here</small>
+        </div>
+      </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item  m-2 ">
+            <a class="nav-link text-white active" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item  m-2 ">
+            <a class="nav-link text-white" href="#">News</a>
+          </li>
+          <li class="nav-item  m-2 ">
+            <a class="nav-link text-white" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item  m-2 ">
+            <a class="nav-link text-white" href="#">Photos</a>
+          </li>
+          <li class="nav-item  m-2 ">
+            <a class="nav-link text-white" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<section id="home" class="">
+  <div class="container text-center ">
+    
+  <div class="search ">
+    <form class=" position-relative d-flex align-items-center m-auto">
+
+      <input type="text" name="" id="location" placeholder="Find your location...." class="form-control w-100 bg-black  rounded-pill text-white" >
+      <input type="button" value="Find" id="submit" class="btn btn-outline-warning rounded-pill px-4">
+    </form>
+  </div>
+
+<div class="mt-5 w-100 ">
+  <div class="row g-0 shadow-lg" id="row">
+    <!-- <div class="col-md-4 bg-black text-white blueColor">
+      <div  class="d-flex justify-content-between  px-3 py-3 blueheader">
+        <h6 id="today"></h6>
+        <h6 id="date1"></h6>
+      </div>
+      <div class="weather text-start">
+        <h5 class="m-4 city">London</h5>
+        <h3> <p id="degree1" class="d-inline-block"></p> &deg;C <img src="" width="80px" height="80px" alt="" id="icon1"></h3>
+        <span class=" m-4" id="condition1"></span>
+        <p class="m-4"><i class="fa-solid fa-umbrella fa-rotate-by fa-lg px-2" style="--fa-rotate-angle: 45deg;""></i><span id="humidity1" class=""></span> %  <i class="fa-solid fa-wind ps-3 pe-2"></i><span id="wind1"></span> km/h</p>
+      </div>
+    </div>
+    <div class="col-md-4  text-white greycolor">
+      <div  class="d-flex justify-content-between  px-3 py-3 greyheader ">
+        <h6 id="tomo"></h6>
+        <h6 id="date2"></h6>
+      </div>
+      <div class="weather text-start">
+        <h5 class="m-4 city">London</h5>
+        <h3><p id="degree2" class="d-inline-block"></p> &deg;C <img src="" width="80px" height="80px" alt="" id="icon2"></h3>
+        <span class=" m-4" id="condition2"></span>
+        <p class="m-4"><i class="fa-solid fa-umbrella fa-rotate-by fa-lg px-2" style="--fa-rotate-angle: 45deg;""></i><span id="humidity2" class=""></span> %  <i class="fa-solid fa-wind ps-3 pe-2"></i><span id="wind2"></span> km/h</p>
+      </div>
+    </div>
+    <div class="col-md-4 bg-black text-white blueColor">
+      <div  class="d-flex justify-content-between px-3 py-3 blueheader">
+        <h6 id="afterTo"></h6>
+        <h6 id="date3"></h6>
+      </div>
+      <div class="weather text-start">
+        <h5 class="m-4 city">London</h5>
+        <h3><p id="degree3" class="d-inline-block"></p> &deg;C <img src="" width="80px" height="80px" alt="" id="icon3"></h3>
+        <span class=" m-4" id="condition3"></span>
+        <p class="m-4"><i class="fa-solid fa-umbrella fa-rotate-by fa-lg px-2" style="--fa-rotate-angle: 45deg;""></i><span id="humidity3" class=""></span> %  <i class="fa-solid fa-wind ps-3 pe-2"></i><span id="wind3"></span> km/h</p>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<footer class="site-footer bg-dark  py-5">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-8 col-sm-12">
+        <form action="#" class=" position-relative d-flex align-items-center m-auto">
+          <input type="text" placeholder="Enter your email to subscribe..." class="form-control w-100 bg-black  rounded-pill">
+          <input type="submit" value="Subscribe" class="btn btn-primary rounded-pill px-4">
+        </form>
+      </div>
+      <div class="col-md-3 d-flex align-items-center  justify-content-evenly ">
+        <div class="social-links d-flex justify-content-evenly align-items-center  w-100">
+          <a href="https://www.facebook.com/profile.php?id=1052970269" target="_blank"><i class="fa-brands fa-xl fa-facebook text-white"></i></a>
+          <a href="https://twitter.com/a7mmos333" target="_blank"><i class="fa-brands fa-xl fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-xl fa-google-plus text-warning"></i></a>
+          <a href="#"><i class="fa-brands fa-xl fa-pinterest text-danger"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-white text-center mt-5">Designed by <strong class="text-primary text-xl-center"> Ahmed Mostafa </strong>. All rights reserved</p>
+  </div>
+</footer>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
