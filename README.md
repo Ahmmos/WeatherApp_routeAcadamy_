@@ -8,6 +8,6 @@ This repo will make a web weather Application that will display the weather for 
 - Open index.html
 - Permit web browser to locate you and get your current location to display the weather for today and the next 2 days.
 
-##Note
+## Note
 - You should have a live server extension on your vs code to easily fetch the API
 
